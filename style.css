@@ -1,0 +1,45 @@
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #ffffff;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: lowercase;
+  background-color: #1c2333;
+}
+
+#smol{
+  font-size: 20px;  
+  text-decoration: underline solid #fff
+}
+
+#maintitle {
+  text-decoration: underline solid #fff;
+  font-style: italic;
+  transform: rotate(2deg);
+}
+
+a {
+  
+}
+
+#calc {
+  transform: rotate(13deg);
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 5px 5px 5px black;
+  transition-duration: 3.5s;
+}
+
+#calc:hover {
+  transform: rotate(373deg);
+  width: 0px;
+}
+
+p {
+  transform: rotate(-1.5deg);
+}
